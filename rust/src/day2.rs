@@ -18,8 +18,8 @@ enum Col2 {
 #[derive(Clone, Copy, Debug, PartialEq, Eq)]
 #[repr(u8)]
 enum Move {
-	Rock = 1,
-	Paper = 2,
+	Rock     = 1,
+	Paper    = 2,
 	Scissors = 3,
 }
 
@@ -42,7 +42,7 @@ impl Move {
 enum RoundResult {
 	Loss = 0,
 	Draw = 3,
-	Win = 6,
+	Win  = 6,
 }
 
 #[aoc_generator(day2)]
